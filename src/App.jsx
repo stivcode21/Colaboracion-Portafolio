@@ -1,10 +1,14 @@
 import { Header } from "./components/header/Header";
-import "./style/App.css";
+import { Presentacion } from "./components/presentacion/Presentacion";
+import "./css/App.scss";
 
 function App() {
   return (
     <>
       <Header />
+      <main>
+        <Presentacion />
+      </main>
     </>
   );
 }
