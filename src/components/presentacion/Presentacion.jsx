@@ -1,4 +1,5 @@
 import { Botones } from "./Botones";
+import { Iconos } from "./Iconos";
 import "./presentacion.scss";
 
 export const Presentacion = () => {
@@ -29,6 +30,9 @@ export const Presentacion = () => {
                 <li className="liMarcado"> <strong className="lineaMarcadora">-</strong> Contacto</li>
             </ul>
         </section>
+
+        <Iconos />
+
       </section>
     </>
   );
