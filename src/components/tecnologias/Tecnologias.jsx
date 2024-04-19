@@ -4,20 +4,20 @@ export const Tecnologias = () => {
   return (
     <section className="tecnologias">
       <div className="img">
-        <h2>Tecnologias y habilidades</h2>
-        <img src="../public/img/html.svg" alt="logoCss" />
-        <img src="../public/img/css.svg" alt="" />
-        <img src="../public/img/sass.svg" alt="" />
-        <img src="../public/img/javascript.svg" alt="" />
-        <img src="../public/img/react.svg" alt="" />
-        <img src="../public/img/git.svg" alt="" />
-        <img src="../public/img/github.svg" alt="" />
+        <h3>Tecnologias y habilidades</h3>
+        <img src="..//img/html.svg" alt="logoCss" />
+        <img src="..//img/css.svg" alt="" />
+        <img src="..//img/sass.svg" alt="" />
+        <img src="..//img/javascript.svg" alt="" />
+        <img src="..//img/react.svg" alt="" />
+        <img src="..//img/git.svg" alt="" />
+        <img src="..//img/github.svg" alt="" />
       </div>
 
       <div className="habilidadesBlanda">
-        <h2 className="habilidadBlanda">
+        <h3 className="habilidadBlanda">
           Habilidades blandas
-        </h2>
+        </h3>
         <p className="pBlanda">Comunicación efectiva</p>
         <p className="pBlanda">Trabajo en equipo</p>
         <p className="pBlanda">Resolución de problemas</p>
