@@ -1,0 +1,23 @@
+.info {
+  width: 60%;
+  .textoInfo {
+    padding-left: 1rem;
+    max-width: 60%;
+
+    .pInfo {
+      margin-top: 0px;
+    }
+  }
+
+  .proyecs {
+    padding-left: 1rem;
+
+    .pProyects {
+      max-width: 60%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

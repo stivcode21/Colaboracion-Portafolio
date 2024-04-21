@@ -10,7 +10,7 @@ export const Header = () => {
             <li className="liHeader">Proyectos</li>
             <li className="liHeader">Habilidades</li>
             <li className="liHeader">Sobre mi</li>
-            <li className="liHeader">Contacto</li>
+            <li className="liHeader contacto">Contacto</li>
           </ul>
         </nav>
       </header>
