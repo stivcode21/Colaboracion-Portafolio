@@ -1,0 +1,33 @@
+.botones {
+  margin: 2rem 0 0 1.7rem;
+
+  .btnContacto {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    background-color: #0077ff;
+    color: #fff;
+    border-radius: 0.25rem;
+    margin-right: 0.7rem;
+    transform: skew(-21deg);
+    width: 7rem;
+
+    .btnContent {
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+
+    &:hover {
+        background-color: #0066cc;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+  }
+}
+

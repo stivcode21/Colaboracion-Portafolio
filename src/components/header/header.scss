@@ -13,6 +13,10 @@
       margin: 10px;
       cursor: pointer;
 
+      &:hover {
+        color: #0066cc;
+        transition: all 0.2s ease-in-out;
+      }
     }
     .contacto {
       margin-right: 0px;
