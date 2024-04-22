@@ -4,7 +4,7 @@ export const Iconos = () => {
       <a
         href="https://www.linkedin.com/in/alanribeca13/"
         target="_blank"
-        className="enlace"
+        className="enlace uno"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ export const Iconos = () => {
       <a
         href="https://github.com/Alan-Ribeca"
         target="_blank"
-        className="enlace"
+        className="enlace dos"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export const Iconos = () => {
       <a
         href="https://www.instagram.com/alann_13/"
         target="_blank"
-        className="enlace"
+        className="enlace tres"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

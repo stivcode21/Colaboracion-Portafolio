@@ -75,22 +75,66 @@
     margin: 3.5rem 0 0 1.7rem;
 
     .enlace {
+      position: relative;
       text-decoration: none;
       color: inherit;
+
+      &.uno {
+        &::before {
+          content: "linkedin";
+          position: absolute;
+          color: white;
+          top: 130%;
+          left: -13px;
+          display: none;
+        }
+
+        &:hover::before {
+          display: block;
+        }
+      }
+
+      &.dos {
+        &::before {
+          content: "github";
+          position: absolute;
+          color: white;
+          top: 130%;
+          left: -10%;
+          display: none;
+        }
+
+        &:hover::before {
+          display: block;
+        }
+      }
+
+      &.tres {
+        &::before {
+          content: "instagram";
+          position: absolute;
+          color: rgba(255, 255, 255, 0.959);
+          top: 130%;
+          left: -19px;
+          display: none;
+        }
+
+        &:hover::before {
+          display: block;
+        }
+      }
     }
 
     .logoRed {
       border-radius: 1px;
       margin-right: 4rem;
       position: relative;
-
+      transition: all 0.3s ease-in-out;
 
       &.linkedin {
-
         &:hover {
           cursor: pointer;
           color: #0077b5;
-          transition: all 0.5s ease-in-out;
         }
       }
 
@@ -98,7 +142,6 @@
         &:hover {
           cursor: pointer;
           color: #333;
-          transition: all 0.5s ease-in-out;
         }
       }
 
@@ -106,7 +149,6 @@
         &:hover {
           cursor: pointer;
           color: #833ab4;
-          transition: all 0.5s ease-in-out;
         }
       }
     }
