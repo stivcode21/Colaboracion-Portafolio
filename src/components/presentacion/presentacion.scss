@@ -62,10 +62,51 @@
         margin-bottom: 1.5rem;
 
         .lineaMarcadora {
-            border-bottom: 1px solid rgb(255, 255, 255);
-            width: 30px; 
-            display: inline-block; 
-            margin-right: 0.5em;
+          border-bottom: 1px solid rgb(255, 255, 255);
+          width: 30px;
+          display: inline-block;
+          margin-right: 0.5em;
+        }
+      }
+    }
+  }
+
+  .redes {
+    margin: 3.5rem 0 0 1.7rem;
+
+    .enlace {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .logoRed {
+      border-radius: 1px;
+      margin-right: 4rem;
+      position: relative;
+
+
+      &.linkedin {
+
+        &:hover {
+          cursor: pointer;
+          color: #0077b5;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+
+      &.github {
+        &:hover {
+          cursor: pointer;
+          color: #333;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+
+      &.insta {
+        &:hover {
+          cursor: pointer;
+          color: #833ab4;
+          transition: all 0.5s ease-in-out;
         }
       }
     }
