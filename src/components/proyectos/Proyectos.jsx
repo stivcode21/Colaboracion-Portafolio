@@ -42,20 +42,38 @@ export const Proyectos = () => {
     <>
       {proyectos.map(({ title, description, link, github, image, tags }) => (
         <article key={title} className="proyecs">
-          <h3 className="titleProyect">{title}</h3>
-          <p className="pProyects">{description}</p>
-          <a href={link} target="_blank" rel="noopener noreferrer" className="aProyects">
-            Link
-          </a>
-          <a href={github} target="_blank" rel="noopener noreferrer" className="aProyects">
-            Github
-          </a>  
-          <ul className="ulProyect">
-            {tags.map((tag) => (
-              <li key={tag} className="liProyect">{tag}</li>
-            ))}
-          </ul>
-          <img src={image} alt={`Captura de pantalla del proyecto ${image}`} className="imgProyect"/>
+          <div className="proyectInfo">
+            <h3 className="titleProyect">{title}</h3>
+            <p className="pProyects">{description}</p>
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aProyects"
+            >
+              Link
+            </a>
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aProyects"
+            >
+              Github
+            </a>
+            <ul className="ulProyect">
+              {tags.map((tag) => (
+                <li key={tag} className="liProyect">
+                  {tag}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <img
+            src={image}
+            alt={`Captura de pantalla del proyecto ${image}`}
+            className="imgProyect"
+          />
         </article>
       ))}
     </>

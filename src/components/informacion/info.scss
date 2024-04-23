@@ -1,7 +1,9 @@
 .info {
-  width: 60%;
+  width: 54%;
+
   .textoInfo {
     padding-left: 1rem;
+    margin-left: 5rem;
     max-width: 60%;
 
     .pInfo {
@@ -9,8 +11,22 @@
     }
   }
 
+  .titleProyectos {
+    margin-top: 4rem;
+    color: #52a8ff;
+  }
+
   .proyecs {
     padding-left: 1rem;
+    margin-top: 10rem;
+
+    &:not(first-of-type) {
+      margin-top: 1rem;
+    }
+
+    .proyectInfo {
+      margin-left: 5rem;
+    }
 
     .pProyects {
       max-width: 60%;
