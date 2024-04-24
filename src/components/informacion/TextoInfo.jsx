@@ -10,7 +10,7 @@ export const TextoInfo = () => {
       </p>
       <p className="pInfo">
         <strong className="strongInfo">¿Qué Puedo Hacer por Ti?</strong>
-        <br />
+
         Mi enfoque principal es desarrollar interfaces de usuario atractivas y
         responsivas que no solo sean visualmente agradables, sino también
         intuitivas y fáciles de usar. Desde sitios web corporativos hasta

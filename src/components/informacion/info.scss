@@ -1,40 +1,19 @@
 .info {
   width: 54%;
 
-
   .textoInfo {
     padding-left: 1rem;
     margin-left: 5rem;
     max-width: 60%;
 
     .pInfo {
-      margin-top: 0px;
-    }
-  }
+      margin: 0px 0 2.4rem 0;
 
-  .titleProyectos {
-    margin-top: 4rem;
-    color: #52a8ff;
-  }
-
-  .proyecs {
-    padding-left: 1rem;
-    margin-top: 10rem;
-
-    &:not(first-of-type) {
-      margin-top: 1rem;
-    }
-
-    .proyectInfo {
-      margin-left: 5rem;
-    }
-
-    .pProyects {
-      max-width: 60%;
-    }
-
-    img {
-      width: 100%;
+      .strongInfo {
+        color: #52a8ff;
+        display: block;
+        margin-bottom: 0.3rem;
+      }
     }
   }
 }

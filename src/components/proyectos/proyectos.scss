@@ -1,0 +1,75 @@
+.info {
+  .titleProyectos {
+    margin: 4rem 0 1rem 0;
+    color: #52a8ff;
+    font-size: 2rem;
+  }
+
+  .proyecs {
+    padding-left: 1rem;
+    margin: 1rem 0 8rem 0;
+
+    .proyectInfo {
+      margin-left: 5rem;
+
+      .titleProyect {
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+      }
+
+      .pProyects {
+        max-width: 50%;
+        margin-bottom: 1rem;
+      }
+
+      .ulProyect {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+
+        .liProyect {
+          margin: 1rem 1rem 1rem 0;
+          color: #52a8ff;
+        }
+      }
+
+      .enlacesPag {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .aProyects {
+        text-decoration: none;
+      }
+
+      .btnProyectos {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+        border: 1px solid transparent;
+        background-color: #0077ff;
+        color: #fff;
+        border-radius: 0.25rem;
+        margin-right: 0.7rem;
+        transform: skew(-21deg);
+        width: 8rem;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          background-color: #0066cc;
+          cursor: pointer;
+        }
+
+        .web {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
