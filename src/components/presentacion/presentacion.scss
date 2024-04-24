@@ -1,7 +1,10 @@
 .presentacion {
   width: 36%;
+  height: 30%;
   margin: 0 4rem 0 5rem;
-  position: relative;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 12.7%;
 
   .cuadrado {
     background-color: white;
@@ -12,7 +15,7 @@
 
   .foto {
     position: absolute;
-    top: 2.5%;
+    top: 10.5%;
     left: 5%;
 
     .fotoMia {
