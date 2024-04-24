@@ -12,6 +12,15 @@ export const Proyectos = () => {
       tags: ["HTML", "CSS", "SASS", "JavaScript", "React"],
     },
     {
+      title: "Gamer-top",
+      description:
+      "Explora la última tecnología en electrodomésticos y dispositivos electrónicos en nuestra tienda en línea.",
+      link: "https://gamertopp.netlify.app/",
+      github: "https://github.com/Alan-Ribeca/EntregaFinal-Ribeca/tree/main",
+      image: "./img/proyecTienda.png",
+      tags: ["HTML", "CSS", "SASS", "JavaScript", "React", "FireBase"],
+    },
+    {
       title: "Apolo",
       description:
         "¡Descubre la moda que te define en nuestra tienda de ropa en línea! Explora nuestra amplia colección de prendas de vestir para todas las ocasiones.",
@@ -19,15 +28,6 @@ export const Proyectos = () => {
       github: "https://github.com/Alan-Ribeca/PF-RIBECA/tree/main",
       image: "./img/proyectApolo.png",
       tags: ["HTML", "CSS", "SASS"],
-    },
-    {
-      title: "Gamer-top",
-      description:
-        "Explora la última tecnología en electrodomésticos y dispositivos electrónicos en nuestra tienda en línea.",
-      link: "https://gamertopp.netlify.app/",
-      github: "https://github.com/Alan-Ribeca/EntregaFinal-Ribeca/tree/main",
-      image: "./img/proyecTienda.png",
-      tags: ["HTML", "CSS", "SASS", "JavaScript", "React", "FireBase"],
     },
     {
       title: "MemoBloc",

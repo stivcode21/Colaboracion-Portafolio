@@ -1,4 +1,5 @@
 import { Proyectos } from "../proyectos/Proyectos"
+import { SobreMi } from "../sobreMi/SobreMi"
 import { Tecnologias } from "../tecnologias/Tecnologias"
 import { TextoInfo } from "./TextoInfo"
 import "./info.scss"
@@ -9,6 +10,7 @@ export const Info = () => {
         <TextoInfo /> 
         <Proyectos />
         <Tecnologias />
+        <SobreMi />
     </section>
   )
 }
