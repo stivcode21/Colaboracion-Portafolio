@@ -13,6 +13,7 @@
     margin-right: 0.7rem;
     transform: skew(-21deg);
     width: 7rem;
+    transition: all 0.3s ease-in-out;
 
     .btnContent {
       display: flex;
@@ -23,7 +24,6 @@
       }
     }
 
-    transition: all 0.3s ease-in-out;
     &:hover {
       background-color: #0066cc;
       cursor: pointer;
