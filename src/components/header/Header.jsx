@@ -21,11 +21,8 @@ export const Header = () => {
             <li className="liHeader">
               <a href="#habilidades"> Habilidades </a>
             </li>
-            <li className="liHeader">
+            <li className="liHeader sobreMi">
               <a href="#sobreMi"> Sobre mi </a>
-            </li>
-            <li className="liHeader contacto">
-              <a href="#"> Contacto</a>
             </li>
           </ul>
         </nav>

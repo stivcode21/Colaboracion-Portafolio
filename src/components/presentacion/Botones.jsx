@@ -3,7 +3,7 @@ export const Botones = () => {
   return (
     <>
       <div className="botones">
-        <a href="https://www.linkedin.com/in/alanribeca13/" target="_blank">
+        <a href="https://wa.me/+543402483866" target="_blank">
           <button className="btnContacto">
             <span className="btnContent">
               <svg
