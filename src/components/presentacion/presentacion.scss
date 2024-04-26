@@ -4,18 +4,12 @@
   margin: 0 4rem 0 5rem;
   position: -webkit-sticky; 
   position: sticky;
-  top: 12.7%;
+  top: 19.2%;
 
-  .cuadrado {
-    background-color: rgb(250, 250, 250);
-    width: 95%;
-    height: 160px;
-    border-radius: 5px;
-  }
 
   .foto {
     position: absolute;
-    top: 10.5%;
+    top: -9.5%;
     left: 5%;
 
     .fotoMia {
@@ -27,7 +21,7 @@
   }
 
   .info {
-    margin: 4.5rem 0 0 1.7rem;
+    margin: 7rem 0 0 1.7rem;
     width: 100%;
 
     .titulo {

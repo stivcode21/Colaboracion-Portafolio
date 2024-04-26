@@ -7,9 +7,6 @@ export const Presentacion = () => {
   return (
     <>
       <section className="presentacion">
-        <div className="cuadrado">
-        {/* <Spline scene="https://prod.spline.design/19TvmNYg3WzVHzSI/scene.splinecode" /> */}
-        </div>
         <div className="foto">
           <img
             className="fotoMia"
