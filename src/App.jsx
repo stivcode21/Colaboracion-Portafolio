@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./css/App.scss";
-import Spline from "@splinetool/react-spline";
 
 function App() {
   useEffect(() => {
@@ -22,7 +21,6 @@ function App() {
 
   return (
     <>
-      <Spline scene="https://prod.spline.design/nGTYlIdjH9zwzLp3/scene.splinecode" />
       <Header />
       <main className="main">
         <Presentacion />

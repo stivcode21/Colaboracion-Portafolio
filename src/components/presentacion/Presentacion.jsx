@@ -1,7 +1,6 @@
 import { Botones } from "./Botones";
 import { Iconos } from "./Iconos";
 import "./presentacion.scss";
-// import Spline from '@splinetool/react-spline';
 
 export const Presentacion = () => {
   return (
