@@ -2,7 +2,7 @@ import "./tecnologias.scss";
 
 export const Tecnologias = () => {
   return (
-    <section className="tecnologias">
+    <section className="tecnologias" id="habilidades">
       <div className="img">
         <h3 className="h3">Tecnologias y habilidades</h3>
         <img src="..//img/html.svg" alt="logoCss" />

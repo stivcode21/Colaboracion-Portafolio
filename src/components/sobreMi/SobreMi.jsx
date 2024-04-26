@@ -2,7 +2,7 @@ import "./sobreMi.scss";
 
 export const SobreMi = () => {
   return (
-    <section className="sobreMi">
+    <section id="sobreMi" className="sobreMi">
         <h3 className="titleSobreMi">Sobre Mi</h3>
       <p className="sobreMiP">
         Hola de nuevo, en esta seccion quiero que me conozcas un poco mas, soy

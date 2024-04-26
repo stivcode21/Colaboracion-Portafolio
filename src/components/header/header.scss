@@ -8,6 +8,7 @@
   z-index: 2;
   background-color: rgb(0, 11, 17);
 
+
   .ulHeader {
     padding: 0;
     margin: 0;
@@ -21,6 +22,11 @@
 
       &:hover {
         color: #52a8ff;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
       }
     }
     .contacto {

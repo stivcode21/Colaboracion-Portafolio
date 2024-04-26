@@ -1,15 +1,14 @@
 .presentacion {
   width: 36%;
-  height: 30%;
+  height: 800px;
   margin: 0 4rem 0 5rem;
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: sticky;
-  top: 19.2%;
-
+  top: 13.2%;
 
   .foto {
     position: absolute;
-    top: -9.5%;
+    top: 0.3%;
     left: 5%;
 
     .fotoMia {
@@ -21,7 +20,7 @@
   }
 
   .info {
-    margin: 7rem 0 0 1.7rem;
+    margin: 10rem 0 0 1.7rem;
     width: 100%;
 
     .titulo {

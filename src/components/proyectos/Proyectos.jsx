@@ -43,7 +43,7 @@ export const Proyectos = () => {
   return (
     <>
       {proyectos.map(({ title, description, link, github, image, tags }) => (
-        <article key={title} className="proyecs" data-aos="fade-left">
+        <article id="proyectos" key={title} className="proyecs" data-aos="fade-left">
           <div className="proyectInfo">
             <h3 className="titleProyect">{title}</h3>
             <p className="pProyects">{description}</p>
