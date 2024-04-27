@@ -42,9 +42,6 @@ export const Presentacion = () => {
             <li className="liMarcado">
               <strong className="lineaMarcadora"></strong> Sobre mi
             </li>
-            <li className="liMarcado">
-              <strong className="lineaMarcadora"></strong> Contacto
-            </li>
           </ul>
         </section>
 
