@@ -62,6 +62,10 @@
           width: 30px;
           display: inline-block;
           margin-right: 0.5em;
+
+          &.active {
+            border-bottom: 1px solid rgb(228, 0, 0);
+          }
         }
       }
     }

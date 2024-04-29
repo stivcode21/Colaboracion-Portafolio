@@ -43,7 +43,7 @@ export const Proyectos = () => {
   return (
     <>
       {proyectos.map(({ title, description, link, github, image, tags }) => (
-        <article id="proyectos" key={title} className="proyecs" data-aos="fade-left">
+        <section id="proyectos" key={title} className="proyecs" data-aos="fade-left">
           <div className="proyectInfo">
             <h3 className="titleProyect">{title}</h3>
             <p className="pProyects">{description}</p>
@@ -102,7 +102,7 @@ export const Proyectos = () => {
             alt={`Captura de pantalla del proyecto ${image}`}
             className="imgProyect"
           />
-        </article>
+        </section>
       ))}
     </>
   );

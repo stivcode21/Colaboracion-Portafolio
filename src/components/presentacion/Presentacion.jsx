@@ -3,6 +3,27 @@ import { Iconos } from "./Iconos";
 import "./presentacion.scss";
 
 export const Presentacion = () => {
+
+  // Función para verificar qué sección está visible en la pantalla
+  function detectarSeccionVisible() {
+    const secciones = document.querySelectorAll('section');
+    const enlaceSecciones = document.querySelectorAll('.ulMarcado strong');
+    
+    secciones.forEach((seccion, index) => {
+      const seccionRect = seccion.getBoundingClientRect();
+      if (seccionRect.top >= 0 && seccionRect.top <= window.innerHeight) {
+        // Si la sección está en la pantalla, agregamos la clase active al enlace correspondiente
+        enlaceSecciones[index].classList.add('active');
+      } else {
+        // Si la sección no está en la pantalla, eliminamos la clase active del enlace correspondiente
+        enlaceSecciones[index].classList.remove('active');
+      }
+    });
+  }
+
+  // Detectar cambios en el desplazamiento de la página
+  window.addEventListener('scroll', detectarSeccionVisible);
+
   return (
     <>
       <section className="presentacion">
@@ -31,16 +52,22 @@ export const Presentacion = () => {
         <section className="navegacion">
           <ul className="ulMarcado">
             <li className="liMarcado">
-              <strong className="lineaMarcadora"></strong> Inicio
+              <strong
+                className="lineaMarcadora active"
+                id="inicioLink"
+              ></strong>{" "}
+              Inicio
             </li>
             <li className="liMarcado">
-              <strong className="lineaMarcadora"></strong> Proyectos
+              <strong className="lineaMarcadora" id="proyectos"></strong>{" "}
+              Proyectos
             </li>
             <li className="liMarcado">
-              <strong className="lineaMarcadora"></strong> Habilidades
+              <strong className="lineaMarcadora" id="habilidadesLink"></strong>{" "}
+              Habilidades
             </li>
             <li className="liMarcado">
-              <strong className="lineaMarcadora"></strong> Sobre mi
+              <strong className="lineaMarcadora" id="sobreMiLink"></strong> Sobre mi
             </li>
           </ul>
         </section>
