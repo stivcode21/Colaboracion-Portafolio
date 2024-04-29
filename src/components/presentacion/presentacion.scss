@@ -64,7 +64,8 @@
           margin-right: 0.5em;
 
           &.active {
-            border-bottom: 1px solid rgb(228, 0, 0);
+            border-bottom: 1px solid #52a8ff;
+            width: 50px;
           }
         }
       }
