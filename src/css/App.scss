@@ -8,6 +8,10 @@
   display: flex;
   width: 80%;
   margin: 0 auto;
+
+  @media (max-width:1420px) {
+    width: 98%;
+  }
 }
 
 body {
