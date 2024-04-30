@@ -34,4 +34,21 @@
       }
     }
   }
+
+  @media (max-width:1420px) {
+    .img {
+      width: 100%;
+
+      .logosImg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        justify-items: center;
+
+        img {
+          margin-left: 0;
+        }
+      }
+    }
+  }
 }
