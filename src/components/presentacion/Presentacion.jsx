@@ -47,7 +47,6 @@ export const Presentacion = () => {
           const link = document.querySelector(`#${seccion.id}Link`);
           if (link) {
             link.classList.add("active");
-            console.log(`Estás en el section con el ID: ${seccion.id}`);
           }
         }
       });

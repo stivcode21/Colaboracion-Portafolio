@@ -6,7 +6,6 @@
   position: sticky;
   top: 13.8%;
 
-
   .foto {
     position: absolute;
     top: 0.3%;
@@ -157,7 +156,7 @@
   }
 }
 
-@media (max-width:1159px) {
+@media (max-width: 1159px) {
   .presentacion {
     margin: 0 0 0 4rem;
 
@@ -167,6 +166,23 @@
   }
 }
 
+@media (max-width: 1054px) {
+  .presentacion {
+    .navegacion {
+      margin-top: 2rem;
+    }
+    .redes {
+      margin-top: 3.1rem;
+    }
+  }
+}
 
+@media (max-width: 1000px) {
+  .presentacion {
+    margin: 0;
 
-
+    .info .profesion {
+      width: 89%;
+    }
+  }
+}

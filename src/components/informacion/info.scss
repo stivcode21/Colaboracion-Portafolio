@@ -24,3 +24,17 @@
     width: 59%;
   }
 }
+
+@media (max-width:1054px) {
+  .info {
+    .textoInfo {
+      max-width: 77%;
+    }
+  }
+}
+
+@media (max-width:1000px) {
+  .info {
+    width: 63%;
+  }
+}
