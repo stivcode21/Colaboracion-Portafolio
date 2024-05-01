@@ -233,7 +233,6 @@
     }
 
     .button {
-      display: block;
       cursor: pointer;
       background: none;
       border: none;
@@ -241,10 +240,9 @@
       flex-direction: column;
       width: 70px;
       gap: 4px;
-      transform-origin: center; 
-      transition: transform 0.3s ease; 
-      transform: rotate(90deg); 
-      margin: 5rem 0rem;
+      transform-origin: center;
+      transform: rotate(90deg);
+      margin: 5rem 0rem 0 0.1rem;
     }
 
     .round {
@@ -277,6 +275,23 @@
 
     .six {
       transform: translateX(10px);
+    }
+  }
+}
+
+@media (max-width: 650px) { 
+  .presentacion {
+    .info {
+      width: 64%;
+      text-align: center;
+
+      .titulo {
+        text-align: center;
+      }
+
+      .profesion {
+        width: 100%;
+      }
     }
   }
 }
