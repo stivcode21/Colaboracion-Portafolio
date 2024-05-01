@@ -35,6 +35,14 @@
 
 @media (max-width:1000px) {
   .info {
-    width: 63%;
+    width: 100%;
+    
+    .textoInfo {
+      max-width: 51%;
+    }
+
+    .proyecs .proyectInfo .pProyects {
+      max-width: 48%;
+    }
   }
 }
