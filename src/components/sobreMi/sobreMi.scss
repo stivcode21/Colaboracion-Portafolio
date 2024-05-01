@@ -31,3 +31,15 @@
     }
   }
 }
+
+@media (max-width:500px) { 
+  .sobreMi .sobreMiP {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 412px) { 
+  .sobreMi .sobreMiP {
+    padding: 0 1rem;
+  }
+}

@@ -1,7 +1,7 @@
 .info {
   width: 54%;
   overflow: hidden;
-  
+
   .textoInfo {
     padding-left: 1rem;
     margin-left: 5rem;
@@ -19,13 +19,13 @@
   }
 }
 
-@media (max-width:1159px) {
+@media (max-width: 1159px) {
   .info {
     width: 59%;
   }
 }
 
-@media (max-width:1054px) {
+@media (max-width: 1054px) {
   .info {
     .textoInfo {
       max-width: 77%;
@@ -33,10 +33,10 @@
   }
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .info {
     width: 100%;
-    
+
     .textoInfo {
       max-width: 51%;
     }
@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width:650px) { 
+@media (max-width: 650px) {
   .info {
     .textoInfo {
       max-width: 100%;
@@ -63,6 +63,27 @@
     .titleProyectos {
       margin-left: 2rem;
     }
-    
+
+    .proyecs {
+      .proyectInfo {
+        margin-left: 2rem;
+
+        .pProyects {
+          max-width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .info .textoInfo .pInfo {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .info .proyecs .proyectInfo .pProyects {
+    max-width: 95%;
   }
 }

@@ -84,20 +84,10 @@
   }
 }
 
-@media (max-width:650px) { 
+@media (max-width: 650px) {
   .info {
     #proyectos {
       padding: 0;
-    }
-
-    .proyecs {
-      .proyectInfo {
-        margin-left: 2rem;
-
-        .pProyects {
-          max-width: 60%;
-        }
-      }
     }
   }
 }

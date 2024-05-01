@@ -232,54 +232,59 @@
       margin-left: 4.2rem;
     }
 
-    .button {
-      cursor: pointer;
-      background: none;
-      border: none;
+    .containerFlecha {
+      width: 100%;
       display: flex;
-      flex-direction: column;
-      width: 70px;
-      gap: 4px;
-      transform-origin: center;
-      transform: rotate(90deg);
-      margin: 5rem 0rem 0 0.1rem;
-    }
+      justify-content: center;
+      .button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        gap: 4px;
+        transform-origin: center;
+        transform: rotate(90deg);
+        margin: 5rem 0rem 0 0.1rem;
+      }
 
-    .round {
-      width: 6px;
-      height: 6px;
-      background: #3da9fc;
-      border-radius: 50%;
-    }
+      .round {
+        width: 6px;
+        height: 6px;
+        background: #3da9fc;
+        border-radius: 50%;
+      }
 
-    .line {
-      display: flex;
-      gap: 4px;
-    }
+      .line {
+        display: flex;
+        gap: 4px;
+      }
 
-    .two {
-      transform: translateX(10px);
-    }
+      .two {
+        transform: translateX(10px);
+      }
 
-    .three {
-      transform: translateX(20px);
-    }
+      .three {
+        transform: translateX(20px);
+      }
 
-    .four {
-      transform: translateX(30px);
-    }
+      .four {
+        transform: translateX(30px);
+      }
 
-    .five {
-      transform: translateX(20px);
-    }
+      .five {
+        transform: translateX(20px);
+      }
 
-    .six {
-      transform: translateX(10px);
+      .six {
+        transform: translateX(10px);
+      }
     }
   }
 }
 
-@media (max-width: 650px) { 
+@media (max-width: 650px) {
   .presentacion {
     .info {
       width: 64%;
@@ -292,6 +297,15 @@
       .profesion {
         width: 100%;
       }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .presentacion {
+    margin: 0;
+    .info {
+      width: 77%;
     }
   }
 }

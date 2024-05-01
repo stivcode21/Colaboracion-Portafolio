@@ -1,6 +1,6 @@
 .botones {
   margin: 2rem 0 4rem 1.7rem;
- 
+
   .btnContacto {
     display: inline-flex;
     justify-content: center;
@@ -14,7 +14,7 @@
     transform: skew(-21deg);
     width: 7rem;
     transition: all 0.3s ease-in-out;
-    
+
     .btnContent {
       display: flex;
       align-items: center;
@@ -31,24 +31,32 @@
   }
 }
 
-@media (max-width:1134px) {
+@media (max-width: 1134px) {
   .botones {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
-    
   }
 }
 
-@media (max-width:1054px) {
+@media (max-width: 1054px) {
   .botones {
     margin: 2rem 0 0 1.7rem;
   }
 }
 
-@media (max-width: 1000px) { 
+@media (max-width: 1000px) {
   .botones {
     display: flex;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .botones {
+    gap: 10px;
+    .btnContacto {
+      margin: 0;
+    }
   }
 }
