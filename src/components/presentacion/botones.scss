@@ -45,3 +45,10 @@
     margin: 2rem 0 0 1.7rem;
   }
 }
+
+@media (max-width: 1000px) { 
+  .botones {
+    display: flex;
+    margin-left: 0;
+  }
+}

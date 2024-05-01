@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Botones } from "./Botones";
 import { Iconos } from "./Iconos";
 import "./presentacion.scss";
+import { FlechaMovil } from "./FlechaMovil";
 
 export const Presentacion = () => {
   useEffect(() => {
@@ -110,6 +111,8 @@ export const Presentacion = () => {
         </section>
 
         <Iconos />
+
+        <FlechaMovil /> 
       </section>
     </>
   );
