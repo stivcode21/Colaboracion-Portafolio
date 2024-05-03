@@ -22,7 +22,7 @@ export const Header = () => {
               <a href="#habilidades"> Habilidades </a>
             </li>
             <li className="liHeader sobreMi">
-              <a href="#sobreMi"> Sobre mi </a>
+              <a href="#sobreMi"> Sobre mí </a>
             </li>
           </ul>
         </nav>

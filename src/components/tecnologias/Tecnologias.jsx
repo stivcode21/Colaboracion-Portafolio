@@ -4,15 +4,15 @@ export const Tecnologias = () => {
   return (
     <section className="tecnologias" id="habilidades">
       <div className="img">
-        <h3 className="h3">Tecnologias y habilidades</h3>
+        <h3 className="h3">Tecnologías y habilidades</h3>
         <div className="logosImg">
-          <img src="..//img/html.svg" alt="logoCss" />
-          <img src="..//img/css.svg" alt="" />
-          <img src="..//img/sass.svg" alt="" />
-          <img src="..//img/javascript.svg" alt="" />
-          <img src="..//img/react.svg" alt="" />
-          <img src="..//img/git.svg" alt="" />
-          <img src="..//img/githubb.svg" alt="" />
+          <img src="..//img/html.svg" alt="logoHTML" />
+          <img src="..//img/css.svg" alt="logoCss" />
+          <img src="..//img/sass.svg" alt="logoSASS" />
+          <img src="..//img/javascript.svg" alt="logoJavaScript" />
+          <img src="..//img/react.svg" alt="logoReact" />
+          <img src="..//img/git.svg" alt="logoGit" />
+          <img src="..//img/githubb.svg" alt="logoGitHub" />
         </div>
       </div>
 
