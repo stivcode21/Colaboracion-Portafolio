@@ -67,8 +67,8 @@ export const Presentacion = () => {
         <div className="foto">
           <img
             className="fotoMia"
-            src="./img/imgPortafolio.jpg"
-            alt="foto de alan"
+            src="./img/fotoCV.jpg"
+            alt="foto de Alan"
           />
         </div>
 
