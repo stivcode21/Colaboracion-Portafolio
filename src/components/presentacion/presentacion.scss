@@ -309,3 +309,16 @@
     }
   }
 }
+
+@media (max-height: 783px) {
+  .presentacion {
+    height: 658px;
+    top: 15.5%;
+    .navegacion {
+      margin-top: 2.5rem;
+    }
+    .redes {
+      margin-top: 2.3rem;
+    }
+  }
+}
