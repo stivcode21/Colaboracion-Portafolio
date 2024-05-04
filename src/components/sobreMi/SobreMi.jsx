@@ -3,13 +3,13 @@ import "./sobreMi.scss";
 export const SobreMi = () => {
   return (
     <section id="sobreMi" className="sobreMi">
-        <h3 className="titleSobreMi">Sobre Mi</h3>
+      <h3 className="titleSobreMi">Sobre Mí</h3>
       <p className="sobreMiP">
-        Hola de nuevo, en esta seccion quiero que me conozcas un poco mas, soy
+        Hola de nuevo, en esta sección quiero que me conozcas un poco más. Soy
         un desarrollador web junior con una pasión por aprender y crecer en el
         campo de la tecnología. Aunque soy nuevo en la industria, he adquirido
-        un sólido conjunto de habilidades en los lenguajes que viste mas arriba,
-        y todo eso a través de mi formación y proyectos personales.
+        un sólido conjunto de habilidades en los lenguajes que mencionaste
+        anteriormente, todo gracias a mi formación y proyectos personales.
       </p>
       <p className="sobreMiP">
         Durante mi tiempo libre, disfruto explorando nuevas tecnologías y
@@ -19,7 +19,7 @@ export const SobreMi = () => {
         a mí mismo.
       </p>
       <p className="sobreMiP">
-        Al ser una persona creativa, organizada y detallista, esas cualidades
+        Al ser una persona creativa, organizada y detallista, esas cualidades,
         junto con mi entusiasmo por la programación y la resolución de
         problemas, me hacen un candidato ideal para cualquier equipo de
         desarrollo.

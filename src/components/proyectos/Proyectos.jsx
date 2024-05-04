@@ -14,7 +14,7 @@ export const Proyectos = () => {
     {
       title: "Gamer-top",
       description:
-      "Explora la última tecnología en electrodomésticos y dispositivos electrónicos en nuestra tienda en línea.",
+        "Explora la última tecnología en electrodomésticos y dispositivos electrónicos en nuestra tienda en línea.",
       link: "https://gamertopp.netlify.app/",
       github: "https://github.com/Alan-Ribeca/EntregaFinal-Ribeca/tree/main",
       image: "./img/proyecTienda.png",
@@ -32,7 +32,7 @@ export const Proyectos = () => {
     {
       title: "MemoBloc",
       description:
-        "Un espacio simple para tus ideas brillantes. Nuestro bloc de notas en línea ofrece una plataforma sin complicaciones para capturar tus pensamientos en cualquier momento y en cualquier lugar. ",
+        "Un espacio simple para tus ideas brillantes. Nuestro bloc de notas en línea ofrece una plataforma sin complicaciones para capturar tus pensamientos en cualquier momento y en cualquier lugar.",
       link: "https://memobloc.netlify.app/",
       github: "https://github.com/Alan-Ribeca/Bloc-de-nota",
       image: "./img/proyectSecundario.png",
@@ -43,7 +43,12 @@ export const Proyectos = () => {
   return (
     <>
       {proyectos.map(({ title, description, link, github, image, tags }) => (
-        <section id="proyectos" key={title} className="proyecs" data-aos="fade-left">
+        <section
+          id="proyectos"
+          key={title}
+          className="proyecs"
+          data-aos="fade-left"
+        >
           <div className="proyectInfo">
             <h3 className="titleProyect">{title}</h3>
             <p className="pProyects">{description}</p>
@@ -62,7 +67,7 @@ export const Proyectos = () => {
                 className="aProyects"
               >
                 <button className="btnProyectos">
-                  Pagina Web
+                  Página web
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
