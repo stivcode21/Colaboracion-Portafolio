@@ -18,7 +18,7 @@ export const TextoInfo = () => {
             intuitivas y fáciles de usar. Desde sitios web corporativos hasta
             aplicaciones web interactivas, tengo la experiencia y las
             habilidades necesarias para crear soluciones que destaquen y
-            deleiten a los usuarios.
+            les guste a los usuarios.
           </p>
 
           <h2 className="titleProyectos">Proyectos</h2>

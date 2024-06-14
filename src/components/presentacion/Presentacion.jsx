@@ -74,7 +74,7 @@ export const Presentacion = () => {
             <strong className="colorTexto">Desarrollador Front-end</strong>{" "}
             Apasionado y comprometido. Me encanta transformar ideas y diseños en
             páginas web mediante{" "}
-            <strong className="colorTexto">código limpio y mantenible.</strong>.
+            <strong className="colorTexto">código limpio y mantenible.</strong>
           </p>
           <p className="direccion">Rosario - Santa Fe - Argentina</p>
           <strong className="contacto">500+ Conexiones</strong>

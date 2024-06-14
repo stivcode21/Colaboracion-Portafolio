@@ -50,9 +50,9 @@ export const Proyectos = () => {
           data-aos="fade-left"
         >
           <div className="proyectInfo">
-            <h3 className="titleProyect">{title}</h3>
-            <p className="pProyects">{description}</p>
-            <ul className="ulProyect">
+            <h3 className="titleProyect" translate="no">{title}</h3>
+            <p className="pProyects" translate="no">{description}</p>
+            <ul className="ulProyect" translate="no">
               {tags.map((tag) => (
                 <li key={tag} className="liProyect">
                   {tag}

@@ -22,7 +22,7 @@ export const Tecnologias = () => {
           <li className="liBlanda">- Comunicación efectiva -</li>
           <li className="liBlanda">- Trabajo en equipo -</li>
           <li className="liBlanda">- Resolución de problemas -</li>
-          <li className="liBlanda">- Creatividad -</li>
+          <li className="liBlanda" translate="no">- Creatividad -</li>
           <li className="liBlanda">- Flexibilidad y adaptabilidad -</li>
           <li className="liBlanda">- Aprendizaje continuo -</li>
         </ul>
