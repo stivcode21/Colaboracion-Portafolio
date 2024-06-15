@@ -12,6 +12,15 @@ export const Proyectos = () => {
       tags: ["HTML", "CSS", "SASS", "JavaScript", "React"],
     },
     {
+      title: "Clon-Linkedin",
+      description:
+        "Clon de Linkedin",
+      link: "https://clon-linked-ing.vercel.app/",
+      github: "https://github.com/Alan-Ribeca/Clon-LinkedIng",
+      image: "./img/clonImgG.png",
+      tags: ["HTML", "CSS", "SASS", "JavaScript", "React"],
+    },
+    {
       title: "Gamer-top",
       description:
         "Explora la última tecnología en electrodomésticos y dispositivos electrónicos en nuestra tienda en línea.",
