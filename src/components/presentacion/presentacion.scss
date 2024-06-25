@@ -230,7 +230,12 @@
       display: flex;
       justify-content: center;
       width: 100%;
-      margin-left: 4.2rem;
+      margin-left: 0;
+      
+
+      .enlace &.uno {
+        padding-left: 4px;
+      }
     }
 
     .containerFlecha {
