@@ -13,6 +13,7 @@ export const Tecnologias = () => {
           <img src="..//img/react.svg" alt="logoReact" />
           <img src="..//img/git.svg" alt="logoGit" />
           <img src="..//img/githubb.svg" alt="logoGitHub" />
+          <img src="../img/firebase.svg" alt="logoFirebase" className="logoFirebase" />
         </div>
       </div>
 
