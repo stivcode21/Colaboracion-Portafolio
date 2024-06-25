@@ -129,7 +129,6 @@
 
     .logoRed {
       border-radius: 1px;
-      margin-right: 4rem;
       position: relative;
       transition: all 0.3s ease-in-out;
 
@@ -228,14 +227,9 @@
 
     .redes {
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
       width: 100%;
       margin-left: 0;
-      
-
-      .enlace &.uno {
-        padding-left: 4px;
-      }
     }
 
     .containerFlecha {
