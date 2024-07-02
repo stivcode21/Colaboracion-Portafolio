@@ -6,10 +6,8 @@ export const SobreMi = () => {
       <h3 className="titleSobreMi">Sobre Mí</h3>
       <p className="sobreMiP" translate="no">
         Hola de nuevo, en esta sección quiero que me conozcas un poco más. Soy
-        un desarrollador web junior con una pasión por aprender y crecer en el
-        campo de la tecnología. Aunque soy nuevo en la industria, he adquirido
-        un sólido conjunto de habilidades en los lenguajes que mencionaste
-        anteriormente, todo gracias a mi formación y proyectos personales.
+        un desarrollador web con una pasión por aprender y crecer en el campo de
+        la tecnología.
       </p>
       <p className="sobreMiP" translate="no">
         Durante mi tiempo libre, disfruto explorando nuevas tecnologías y
@@ -19,16 +17,8 @@ export const SobreMi = () => {
         a mí mismo.
       </p>
       <p className="sobreMiP" translate="no">
-        Al ser una persona creativa, organizada y detallista, esas cualidades,
-        junto con mi entusiasmo por la programación y la resolución de
-        problemas, me hacen un candidato ideal para cualquier equipo de
-        desarrollo.
-      </p>
-      <p className="sobreMiP" translate="no">
-        Estoy emocionado por la oportunidad de comenzar mi carrera en el
-        desarrollo web y estoy ansioso por las oportunidades de aprendizaje y
-        crecimiento que vendrán. ¡Espero tener la oportunidad de discutir cómo
-        puedo contribuir a tu equipo!
+        Al ser una persona creativa, comunicativa, organizada y detallista, me
+        considero un candidato ideal para cualquier equipo de desarrollo
       </p>
     </section>
   );

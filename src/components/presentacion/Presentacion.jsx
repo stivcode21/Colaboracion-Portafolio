@@ -71,9 +71,8 @@ export const Presentacion = () => {
         <article className="info">
           <h1 className="titulo">Alan Ribeca</h1>
           <p className="profesion">
-            <strong className="colorTexto">Desarrollador Front-end</strong>{" "}
-            Apasionado y comprometido. Me encanta transformar ideas y diseños en
-            páginas web mediante{" "}
+            <strong className="colorTexto">Desarrollador Front-end.</strong>{" "}
+            Convierto conceptos y diseños en páginas web mediante un{" "}
             <strong className="colorTexto">código limpio y mantenible.</strong>
           </p>
           <p className="direccion">Rosario - Santa Fe - Argentina</p>
