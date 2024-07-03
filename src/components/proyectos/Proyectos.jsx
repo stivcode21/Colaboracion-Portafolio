@@ -5,7 +5,7 @@ export const Proyectos = () => {
     {
       title: "Font-Family: Generator;",
       description:
-        "Explora una amplia variedad de fuentes tipográficas y personaliza tu experiencia de diseño con nuestra herramienta de generación de fuentes.",
+        "Explora una amplia variedad de fuentes tipográficas y personaliza tu experiencia de diseño con esta herramienta de generación de fuentes.",
       link: "https://font-family.netlify.app/",
       github: "https://github.com/Alan-Ribeca/Font-Family",
       image: "./img/proyecFamily.png",
@@ -23,7 +23,7 @@ export const Proyectos = () => {
     {
       title: "Gamer-top",
       description:
-        "Explora la última tecnología en electrodomésticos y dispositivos electrónicos en nuestra tienda en línea.",
+        "Explora la última tecnología en electrodomésticos y dispositivos electrónicos en esta hermosa tienda en línea.",
       link: "https://gamertopp.netlify.app/",
       github: "https://github.com/Alan-Ribeca/EntregaFinal-Ribeca/tree/main",
       image: "./img/proyecTienda.png",
