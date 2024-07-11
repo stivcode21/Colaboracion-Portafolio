@@ -15,8 +15,6 @@ export const TextoInfo = () => {
             habilidades necesarias para crear soluciones que destaquen y
             les guste a los usuarios.
           </p>
-
-          <h2 className="titleProyectos">Proyectos</h2>
         </div>
       </section>
     </>

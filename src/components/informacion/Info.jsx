@@ -1,3 +1,4 @@
+import { Experiencia } from "../experiencia/Experiencia"
 import { Proyectos } from "../proyectos/Proyectos"
 import { SobreMi } from "../sobreMi/SobreMi"
 import { Tecnologias } from "../tecnologias/Tecnologias"
@@ -8,6 +9,7 @@ export const Info = () => {
   return (
     <section className="info">
         <TextoInfo /> 
+        <Experiencia />
         <Proyectos />
         <Tecnologias />
         <SobreMi />

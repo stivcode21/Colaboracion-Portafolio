@@ -13,8 +13,7 @@ export const Proyectos = () => {
     },
     {
       title: "Clon-Linkedin",
-      description:
-        "Clon de Linkedin",
+      description: "Clon de Linkedin",
       link: "https://clon-linked-ing.vercel.app/",
       github: "https://github.com/Alan-Ribeca/Clon-LinkedIng",
       image: "./img/clonImgG.png",
@@ -51,6 +50,7 @@ export const Proyectos = () => {
 
   return (
     <>
+      <h2 className="titleProyectos">Proyectos</h2>
       {proyectos.map(({ title, description, link, github, image, tags }) => (
         <section
           id="proyectos"
@@ -59,8 +59,12 @@ export const Proyectos = () => {
           data-aos="fade-left"
         >
           <div className="proyectInfo">
-            <h3 className="titleProyect" translate="no">{title}</h3>
-            <p className="pProyects" translate="no">{description}</p>
+            <h3 className="titleProyect" translate="no">
+              {title}
+            </h3>
+            <p className="pProyects" translate="no">
+              {description}
+            </p>
             <ul className="ulProyect" translate="no">
               {tags.map((tag) => (
                 <li key={tag} className="liProyect">
