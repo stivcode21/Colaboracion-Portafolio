@@ -6,7 +6,7 @@
 
 .experienciaItem {
   margin: 0.5rem 0 0 6rem;
-  max-width: 60%;
+
   .titleProyect {
     color: white;
     font-size: 1.5rem;
@@ -15,9 +15,11 @@
 
   .descrip {
     margin-bottom: 1rem;
+    max-width: 70%;
   }
 
   .funciones {
+    width: 130%;
     list-style: none;
     padding: 0;
     display: grid;
@@ -73,5 +75,70 @@
     .web {
       margin-left: 0.5rem;
     }
+  }
+}
+
+.containerImg {
+  margin-top: 4rem;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .containerImg {
+    img {
+      width: 190px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .enlacesPag {
+    justify-content: left;
+  }
+  .containerImg {
+    img {
+      width: 250px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .title {
+    margin-left: 2rem;
+  }
+
+  .experienciaItem {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .experienciaItem {
+    .funciones {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .containerImg {
+    img {
+      width: 200px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .containerImg {
+    margin-left: -1rem;
+
+    img {
+      width: 175px;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .containerImg img {
+    width: 150px;
   }
 }

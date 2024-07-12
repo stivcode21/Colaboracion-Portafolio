@@ -16,7 +16,8 @@ export const Experiencia = () => {
       tags: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
       link: "https://mipedido.netlify.app/",
       gitHub: "https://github.com/Alan-Ribeca/Mi-Pedido",
-      video: "",
+      img: "./img/imgExpe.png",
+      imgDos: "./img/imgExpePe.png",
     },
   ];
 
@@ -25,7 +26,16 @@ export const Experiencia = () => {
       <div className="experienciaContainer">
         <h2 className="title">Experiencia laboral</h2>
         {experiencia.map(
-          ({ title, description, funciones, tags, link, gitHub, video }) => (
+          ({
+            title,
+            description,
+            funciones,
+            tags,
+            link,
+            gitHub,
+            img,
+            imgDos,
+          }) => (
             <div className="experienciaItem" key={title}>
               <h3 className="titleProyect">{title}</h3>
               <p className="descrip">{description}</p>
@@ -82,6 +92,10 @@ export const Experiencia = () => {
                     </svg>
                   </button>
                 </a>
+              </div>
+              <div className="containerImg">
+                <img src={img} alt="img del proyecto" />
+                <img src={imgDos} alt="img del proyecto" />
               </div>
             </div>
           )
