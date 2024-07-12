@@ -64,7 +64,7 @@
     border-radius: 0.25rem;
     margin-right: 0.7rem;
     transform: skew(-21deg);
-    width: 8rem;
+    min-width: 8rem;
     transition: all 0.3s ease-in-out;
 
     &:hover {
@@ -128,6 +128,10 @@
 }
 
 @media (max-width: 450px) {
+  .experienciaItem .descrip {
+    max-width: 80%;
+  }
+
   .containerImg {
     margin-left: -1rem;
 
