@@ -41,7 +41,7 @@ export const Botones = () => {
             </span>
           </button>
         </a>
-        <a href="cv/cv-Alan-Ribeca.pdf" download>
+        <a href="cv/Alan-Ribeca-cv.pdf" download>
           <button className="btnContacto">
             <span className="btnContent">
               <svg
