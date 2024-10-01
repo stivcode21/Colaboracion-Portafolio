@@ -11,9 +11,15 @@ export const Tecnologias = () => {
           <img src="..//img/sass.svg" alt="logoSASS" />
           <img src="..//img/javascript.svg" alt="logoJavaScript" />
           <img src="..//img/react.svg" alt="logoReact" />
+          <img src="..//img/node.svg" alt="logoNode.js" />
           <img src="..//img/git.svg" alt="logoGit" />
           <img src="..//img/githubb.svg" alt="logoGitHub" />
-          <img src="../img/firebase.svg" alt="logoFirebase" className="logoFirebase" />
+          <img
+            src="../img/firebase.svg"
+            alt="logoFirebase"
+            className="logoFirebase"
+          />
+          <img src="..//img/mongodb.svg" alt="logoMongoDB" />
         </div>
       </div>
 
@@ -23,7 +29,9 @@ export const Tecnologias = () => {
           <li className="liBlanda">- Comunicación efectiva -</li>
           <li className="liBlanda">- Trabajo en equipo -</li>
           <li className="liBlanda">- Resolución de problemas -</li>
-          <li className="liBlanda" translate="no">- Creatividad -</li>
+          <li className="liBlanda" translate="no">
+            - Creatividad -
+          </li>
           <li className="liBlanda">- Flexibilidad y adaptabilidad -</li>
           <li className="liBlanda">- Aprendizaje continuo -</li>
         </ul>

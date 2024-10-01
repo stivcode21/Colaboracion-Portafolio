@@ -3,6 +3,30 @@ import "./proyectos.scss";
 export const Proyectos = () => {
   const proyectos = [
     {
+      title: "Mi-inmobiliaria",
+      description:
+        "La página de Mi Inmobiliaria permite buscar y filtrar propiedades en venta y alquiler, con imágenes y descripciones detalladas. Ofrece un diseño responsivo y un formulario de contacto para consultas. El front-end está hecho con React, el back-end con Node.js, y se utilizó MongoDB como base de datos. Si inicia session con el gmail alan@gmial.com y el password alan1452, podra entrar a la pagina como el administrados (esto le permitira hacer un CRUD completo sobre las propiedades)",
+      link: "https://miinmobiliaria.netlify.app/",
+      github: "https://github.com/Alan-Ribeca/inmobiliaria",
+      funciones: [
+        "Búsqueda de propiedades en venta y alquiler",
+        "Visualización Detallada de Propiedades",
+        "Formulario de Contacto",
+        "Sección de servicios ofrecidos por la inmobiliaria",
+        "Registro, validación de cuenta y recuperación",
+      ],
+      image: "./img/inmoImg.png",
+      tags: [
+        "HTML",
+        "CSS",
+        "SASS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+      ],
+    },
+    {
       title: "Font-Family: Generator;",
       description:
         "Explora una amplia variedad de fuentes tipográficas y personaliza tu experiencia de diseño con esta herramienta de generación de fuentes.",
