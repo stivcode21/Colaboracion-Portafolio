@@ -1,6 +1,6 @@
 .title {
   margin: 4rem 0 1rem 6rem;
-  color: #14A1F0;
+  color: #14a1f0;
   font-size: 2rem;
 }
 
@@ -8,18 +8,17 @@
   margin: 0.5rem 0 0 6rem;
 
   .titleProyect {
-    color: #F1F2F4;
+    color: #f1f2f4;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
 
   .descrip {
     margin-bottom: 1rem;
-    max-width: 70%;
+    max-width: 93%;
   }
 
   .funciones {
-    width: 130%;
     list-style: none;
     padding: 0;
     display: grid;
@@ -27,9 +26,27 @@
     gap: 0.5em;
     margin-bottom: 1.5rem;
 
+    li {
+      display: flex;
+      align-items: flex-start;
+    }
     li::before {
-      content: "🔹"; 
+      content: "🔹";
+      margin-top: -0.3rem;
       font-size: 1.2rem;
+    }
+  }
+
+  .tecnologiasUsadas {
+    font-size: 1.1rem;
+    position: relative;
+    width: max-content;
+    color: #edeef0e6;
+    .flecha {
+      position: absolute;
+      transform: rotate(225deg);
+      bottom: 62%;
+      right: -8%;
     }
   }
 
@@ -99,6 +116,9 @@
     img {
       width: 250px;
     }
+  }
+  .experienciaItem .descrip {
+    max-width: 55%;
   }
 }
 

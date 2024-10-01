@@ -5,7 +5,7 @@
   .textoInfo {
     padding-left: 1rem;
     margin-left: 5rem;
-    max-width: 60%;
+    max-width: 79%;
 
     .pInfo {
       margin: 0px 0 2.4rem 0;
@@ -77,13 +77,12 @@
 }
 
 @media (max-width: 500px) {
-  .info .textoInfo .pInfo {
-    padding: 0 2rem;
-  }
-}
-
-@media (max-width: 412px) {
-  .info .proyecs .proyectInfo .pProyects {
-    max-width: 95%;
+  .info {
+    .textoInfo .pInfo {
+      padding: 0 2rem;
+    }
+    .proyecs .proyectInfo .pProyects {
+      max-width: 95%;
+    }
   }
 }

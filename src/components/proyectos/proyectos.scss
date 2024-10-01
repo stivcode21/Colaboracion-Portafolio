@@ -29,14 +29,20 @@
         gap: 0.5em;
         margin-bottom: 1.5rem;
 
+        li {
+          display: flex;
+          align-items: flex-start;
+        }
         li::before {
           content: "🔹";
+          margin-top: -0.3rem;
           font-size: 1.2rem;
         }
       }
 
       .tecnologiasUsadas {
         font-size: 1.1rem;
+        margin-bottom: 0.5rem;
         position: relative;
         width: max-content;
         color: #edeef0e6;
@@ -48,17 +54,19 @@
         }
       }
       .pProyects {
-        max-width: 65%;
+        max-width: 93%;
         margin-bottom: 1rem;
       }
 
       .ulProyect {
+        width: 95%;
         list-style-type: none;
         padding: 0;
         display: flex;
+        flex-wrap: wrap;
 
         .liProyect {
-          margin: 1rem 1rem 1rem 0;
+          margin: 0.5rem 1rem 0 0;
           color: #14a1f0;
         }
       }
@@ -121,5 +129,11 @@
       padding: 0.5rem 0rem;
       margin-right: 0.4rem;
     }
+  }
+}
+
+@media (max-width: 412px) {
+  .info .proyecs .proyectInfo .pProyects {
+    max-width: 95%;
   }
 }
