@@ -15,7 +15,7 @@
       width: 120px;
       height: 120px;
       border-radius: 50%;
-      border: 3px solid rgb(255, 255, 255);
+      border: 3px solid #14a1f0;
       object-fit: cover;
     }
   }
@@ -26,7 +26,7 @@
 
     .titulo {
       font-size: 2rem;
-      color: white;
+      color: #f1f2f4;
       margin: 0;
     }
 
@@ -36,7 +36,7 @@
       line-height: 1.1;
 
       .colorTexto {
-        color: #52a8ff;
+        color: #14a1f0;
       }
     }
 
@@ -67,7 +67,7 @@
           margin-right: 0.5em;
 
           &.active {
-            border-bottom: 1px solid #52a8ff;
+            border-bottom: 1px solid #14a1f0;
             width: 50px;
           }
         }
@@ -107,7 +107,7 @@
           position: absolute;
           color: white;
           top: 130%;
-          left: -10%;
+          left: -37%;
           display: none;
         }
 
@@ -122,7 +122,7 @@
           position: absolute;
           color: rgba(255, 255, 255, 0.959);
           top: 130%;
-          left: -19px;
+          left: -15px;
           display: none;
         }
 
@@ -140,21 +140,18 @@
       &.linkedin {
         &:hover {
           cursor: pointer;
-          color: #0077b5;
         }
       }
 
       &.github {
         &:hover {
           cursor: pointer;
-          color: #333;
         }
       }
 
       &.insta {
         &:hover {
           cursor: pointer;
-          color: #833ab4;
         }
       }
     }

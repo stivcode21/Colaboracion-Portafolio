@@ -17,13 +17,26 @@
       margin-left: 5rem;
 
       .titleProyect {
-        color: white;
+        color: #f1f2f4;
         margin-bottom: 0.5rem;
         font-size: 1.5rem;
       }
 
+      .funciones {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        gap: 0.5em;
+        margin-bottom: 1.5rem;
+
+        li::before {
+          content: "🔹";
+          font-size: 1.2rem;
+        }
+      }
+
       .pProyects {
-        max-width: 50%;
+        max-width: 65%;
         margin-bottom: 1rem;
       }
 
@@ -34,7 +47,7 @@
 
         .liProyect {
           margin: 1rem 1rem 1rem 0;
-          color: #52a8ff;
+          color: #14a1f0;
         }
       }
 
@@ -93,7 +106,7 @@
 
     .proyecs .proyectInfo .btnProyectos {
       min-width: 8rem;
-      padding: .5rem 0rem;
+      padding: 0.5rem 0rem;
       margin-right: 0.4rem;
     }
   }

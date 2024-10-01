@@ -1,6 +1,6 @@
 .title {
   margin: 4rem 0 1rem 6rem;
-  color: #52a8ff;
+  color: #14A1F0;
   font-size: 2rem;
 }
 
@@ -8,7 +8,7 @@
   margin: 0.5rem 0 0 6rem;
 
   .titleProyect {
-    color: white;
+    color: #F1F2F4;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
@@ -28,7 +28,7 @@
     margin-bottom: 1.5rem;
 
     li::before {
-      content: "🔹"; // Puedes usar cualquier carácter o símbolo
+      content: "🔹"; 
       font-size: 1.2rem;
     }
   }
@@ -40,7 +40,7 @@
 
     .liProyect {
       margin: 1rem 1rem 1rem 0;
-      color: #52a8ff;
+      color: #14a1f0;
     }
   }
 }
