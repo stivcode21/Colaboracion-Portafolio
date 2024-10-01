@@ -118,16 +118,27 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .info .proyecs .proyectInfo .enlacesPag {
+    justify-content: left;
+  }
+}
+
 @media (max-width: 650px) {
   .info {
     #proyectos {
       padding: 0;
     }
 
-    .proyecs .proyectInfo .btnProyectos {
-      min-width: 8rem;
-      padding: 0.5rem 0rem;
-      margin-right: 0.4rem;
+    .proyecs .proyectInfo {
+      .funciones {
+        width: 95%;
+      }
+      .btnProyectos {
+        min-width: 8rem;
+        padding: 0.5rem 0rem;
+        margin-right: 0.4rem;
+      }
     }
   }
 }
