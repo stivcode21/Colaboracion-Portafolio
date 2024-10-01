@@ -35,6 +35,18 @@
         }
       }
 
+      .tecnologiasUsadas {
+        font-size: 1.1rem;
+        position: relative;
+        width: max-content;
+        color: #edeef0e6;
+        .flecha {
+          position: absolute;
+          transform: rotate(225deg);
+          bottom: 62%;
+          right: -8%;
+        }
+      }
       .pProyects {
         max-width: 65%;
         margin-bottom: 1rem;
