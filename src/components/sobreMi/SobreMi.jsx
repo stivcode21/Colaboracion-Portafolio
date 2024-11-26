@@ -3,7 +3,7 @@ import "./sobreMi.scss";
 export const SobreMi = () => {
   return (
     <section id="sobreMi" className="sobreMi">
-      <h3 className="titleSobreMi">Sobre Mí</h3>
+      <h2 className="titleSobreMi">Sobre Mí</h2>
       <p className="sobreMiP" translate="no">
         Hola de nuevo, en esta sección quiero que me conozcas un poco más. Soy
         un desarrollador web con una pasión por aprender y crecer en el campo de

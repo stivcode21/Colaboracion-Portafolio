@@ -1,5 +1,5 @@
 .botones {
-  margin: 2rem 0 4rem 1.7rem;
+  margin: 2rem 0 4rem 0rem;
 
   .btnContacto {
     display: inline-flex;
@@ -61,13 +61,7 @@
   }
 }
 
-@media (max-width: 360px) { 
-  .botones .btnContacto {
-    min-width: 6.5rem;
-  }
-}
-
-@media (max-height: 783px) { 
+@media (max-height: 783px) {
   .botones {
     margin-bottom: 1rem;
   }

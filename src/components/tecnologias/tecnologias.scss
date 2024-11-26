@@ -2,13 +2,20 @@
   scroll-margin-top: 306px;
 }
 
+.box {
+  width: 85%;
+  margin: auto;
+}
+
 .tecnologias {
-  padding-left: 1rem;
-  margin: 16rem 0 20rem 5rem;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 40px;
 
   .h3 {
-    text-align: center;
-    margin-bottom: 1.5rem;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 1rem;
     color: #52a8ff;
   }
 
@@ -25,16 +32,13 @@
   }
 
   .habilidadesBlanda {
-    margin: 3rem 0;
-
+    margin: auto;
     .ulBlanda {
       list-style-type: none;
-      text-align: center;
       padding: 0;
 
       .liBlanda {
         margin-bottom: 0.5rem;
-        padding-left: 1rem;
       }
     }
   }
@@ -59,7 +63,7 @@
 
 @media (max-width: 1000px) {
   .tecnologias {
-    margin: 4rem 0 8rem 5rem;
+    margin: 4rem 0 3rem 5rem;
   }
 }
 
@@ -70,6 +74,7 @@
 
     .habilidadesBlanda .ulBlanda .liBlanda {
       padding: 0;
+      padding-left: 1rem;
     }
   }
 }

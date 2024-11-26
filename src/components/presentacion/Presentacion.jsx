@@ -64,50 +64,52 @@ export const Presentacion = () => {
   return (
     <>
       <section className="presentacion">
-        <div className="foto">
-          <img className="fotoMia" src="./img/fotoCV.jpg" alt="foto de Alan" />
+        <div className="box">
+          <div className="foto">
+            <img className="fotoMia" src="./img/fotoCV.jpg" alt="foto de Alan" />
+          </div>
+
+          <article className="info">
+            <h1 className="titulo">Alan Ribeca</h1>
+            <p className="profesion">
+              <strong className="colorTexto">Desarrollador Front-end.</strong>{" "}
+              Convierto conceptos y diseños en páginas web mediante un{" "}
+              <strong className="colorTexto">código limpio y mantenible.</strong>
+            </p>
+            <p className="direccion">Rosario - Santa Fe - Argentina</p>
+            <strong className="contacto">500+ Conexiones</strong>
+          </article>
+
+          <Botones />
+
+          <section className="navegacion">
+            <ul className="ulMarcado">
+              <li className="liMarcado">
+                <strong
+                  className="lineaMarcadora active"
+                  id="inicioLink"
+                ></strong>{" "}
+                Inicio
+              </li>
+              <li className="liMarcado">
+                <strong className="lineaMarcadora" id="proyectosLink"></strong>{" "}
+                Proyectos
+              </li>
+              <li className="liMarcado">
+                <strong className="lineaMarcadora" id="habilidadesLink"></strong>{" "}
+                Habilidades
+              </li>
+              <li className="liMarcado">
+                <strong className="lineaMarcadora" id="sobreMiLink"></strong>{" "}
+                Sobre mí
+              </li>
+            </ul>
+          </section>
+
+          <Iconos />
+
+          <FlechaMovil />
         </div>
-
-        <article className="info">
-          <h1 className="titulo">Alan Ribeca</h1>
-          <p className="profesion">
-            <strong className="colorTexto">Desarrollador Front-end.</strong>{" "}
-            Convierto conceptos y diseños en páginas web mediante un{" "}
-            <strong className="colorTexto">código limpio y mantenible.</strong>
-          </p>
-          <p className="direccion">Rosario - Santa Fe - Argentina</p>
-          <strong className="contacto">500+ Conexiones</strong>
-        </article>
-
-        <Botones />
-
-        <section className="navegacion">
-          <ul className="ulMarcado">
-            <li className="liMarcado">
-              <strong
-                className="lineaMarcadora active"
-                id="inicioLink"
-              ></strong>{" "}
-              Inicio
-            </li>
-            <li className="liMarcado">
-              <strong className="lineaMarcadora" id="proyectosLink"></strong>{" "}
-              Proyectos
-            </li>
-            <li className="liMarcado">
-              <strong className="lineaMarcadora" id="habilidadesLink"></strong>{" "}
-              Habilidades
-            </li>
-            <li className="liMarcado">
-              <strong className="lineaMarcadora" id="sobreMiLink"></strong>{" "}
-              Sobre mí
-            </li>
-          </ul>
-        </section>
-
-        <Iconos />
-
-        <FlechaMovil />
       </section>
     </>
   );

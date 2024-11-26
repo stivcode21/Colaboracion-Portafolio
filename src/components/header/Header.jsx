@@ -21,7 +21,7 @@ export const Header = () => {
             <li className="liHeader">
               <a href="#habilidades"> Habilidades </a>
             </li>
-            <li className="liHeader sobreMi">
+            <li className="liHeader">
               <a href="#sobreMi"> Sobre mí </a>
             </li>
           </ul>

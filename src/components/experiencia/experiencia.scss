@@ -1,12 +1,21 @@
+.experienciaContainer {
+  width: 100%;
+  margin: auto;
+}
+
 .title {
-  margin: 4rem 0 1rem 6rem;
   color: #14a1f0;
   font-size: 2rem;
 }
 
-.experienciaItem {
-  margin: 0.5rem 0 0 6rem;
+.containerExperiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.experienciaItem {
   .titleProyect {
     color: #f1f2f4;
     font-size: 1.5rem;
@@ -15,7 +24,6 @@
 
   .descrip {
     margin-bottom: 1rem;
-    max-width: 93%;
   }
 
   .funciones {
@@ -98,17 +106,27 @@
 .containerImg {
   margin-top: 4rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {
   .containerImg {
     img {
-      width: 190px;
+      width: 170px;
     }
   }
 }
 
 @media (max-width: 1000px) {
+  .experienciaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
   .enlacesPag {
     justify-content: left;
   }
@@ -126,13 +144,12 @@
   .title {
     margin-left: 2rem;
   }
-
-  .experienciaItem {
-    margin-left: 2rem;
-  }
 }
 
 @media (max-width: 650px) {
+  .containerExperiencia {
+    padding: 0 2rem;
+  }
   .experienciaItem {
     .funciones {
       display: flex;

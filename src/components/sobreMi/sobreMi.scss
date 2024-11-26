@@ -1,45 +1,13 @@
 .sobreMi {
-  padding-left: 1rem;
-  margin: 0 0 9.2rem 5rem;
+  width: 85%;
+  margin: auto;
 
   .titleSobreMi {
-    text-align: center;
     color: #52a8ff;
     margin-bottom: 1rem;
   }
 
   .sobreMiP {
     margin-bottom: 1rem;
-  }
-}
-
-@media (max-width: 1000px) {
-  .sobreMi .sobreMiP {
-    margin: 0 1rem 1rem 0;
-  }
-}
-
-@media (max-width:650px) { 
-  .sobreMi {
-    margin-left: 0;
-    padding: 0;
-
-    .sobreMiP {
-      margin-left: 2rem;
-      text-align: center;
-      padding: 0 4rem;
-    }
-  }
-}
-
-@media (max-width:500px) { 
-  .sobreMi .sobreMiP {
-    padding: 0 2rem;
-  }
-}
-
-@media (max-width: 412px) { 
-  .sobreMi .sobreMiP {
-    padding: 0 1rem;
   }
 }

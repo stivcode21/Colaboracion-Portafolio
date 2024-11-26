@@ -1,15 +1,18 @@
 .presentacion {
-  width: 36%;
+  width: 50%;
   height: 710px;
-  margin: 0 4rem 0 5rem;
   position: -webkit-sticky;
   position: sticky;
   top: 13.8%;
 
+  .box {
+    width: 100%;
+  }
+
   .foto {
     position: absolute;
     top: 0.3%;
-    left: 5%;
+    left: 0;
 
     .fotoMia {
       width: 120px;
@@ -21,7 +24,7 @@
   }
 
   .info {
-    margin: 10rem 0 0 1.7rem;
+    margin: 10rem 0 0 0rem;
     width: 100%;
 
     .titulo {
@@ -31,7 +34,7 @@
     }
 
     .profesion {
-      width: 70%;
+      width: 91%;
       margin-top: 0.5rem;
       line-height: 1.1;
 
@@ -51,7 +54,7 @@
   }
 
   .navegacion {
-    margin: 3rem 0 0 1.7rem;
+    margin: 3rem 0 0 0rem;
 
     .ulMarcado {
       padding: 0px;
@@ -162,16 +165,6 @@
   }
 }
 
-@media (max-width: 1159px) {
-  .presentacion {
-    margin: 0 0 0 4rem;
-
-    .info .profesion {
-      width: 91%;
-    }
-  }
-}
-
 @media (max-width: 1054px) {
   .presentacion {
     .navegacion {
@@ -179,16 +172,6 @@
     }
     .redes {
       margin-top: 3.1rem;
-    }
-  }
-}
-
-@media (max-width: 1000px) {
-  .presentacion {
-    margin: 0;
-
-    .info .profesion {
-      width: 89%;
     }
   }
 }
@@ -287,6 +270,12 @@
 }
 
 @media (max-width: 650px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .presentacion {
     .info {
       width: 64%;

@@ -1,11 +1,12 @@
 .info {
-  width: 54%;
-  overflow: hidden;
+  width: 50%;
+  margin: auto;
   margin-top: 3rem;
   .textoInfo {
-    padding-left: 1rem;
-    margin-left: 5rem;
-    max-width: 79%;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 20px;
 
     .pInfo {
       margin: 0px 0 2.4rem 0;
@@ -16,12 +17,6 @@
         margin-bottom: 0.3rem;
       }
     }
-  }
-}
-
-@media (max-width: 1159px) {
-  .info {
-    width: 59%;
   }
 }
 
@@ -37,10 +32,6 @@
   .info {
     width: 100%;
 
-    .textoInfo {
-      max-width: 51%;
-    }
-
     .proyecs .proyectInfo .pProyects {
       max-width: 48%;
     }
@@ -55,32 +46,19 @@
       padding: 0;
 
       .pInfo {
-        padding: 0 2rem;
-        width: 80%;
+        margin: auto;
+        width: 85%;
       }
     }
 
     .titleProyectos {
       margin-left: 2rem;
     }
-
-    .proyecs {
-      .proyectInfo {
-        margin-left: 2rem;
-
-        .pProyects {
-          max-width: 70%;
-        }
-      }
-    }
   }
 }
 
 @media (max-width: 500px) {
   .info {
-    .textoInfo .pInfo {
-      padding: 0 2rem;
-    }
     .proyecs .proyectInfo .pProyects {
       max-width: 95%;
     }
